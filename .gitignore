@@ -1,0 +1,26 @@
+# Ignore build artifacts and binaries
+*.exe
+*.out
+*.o
+*.obj
+*.class
+*.dll
+*.so
+*.a
+*.log
+
+# IDE folders
+.vscode/
+
+# Common build directories
+/bin/
+/obj/
+**/output/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Node
+node_modules/
