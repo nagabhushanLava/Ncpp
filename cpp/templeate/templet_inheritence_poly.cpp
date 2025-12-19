@@ -32,7 +32,10 @@ template <class T, class X,class F> class derived:public greece<T,X>{
 
 int main()
 {
-    greece<int , float> * ptr=new derived<int,float,string>(10,1.2f,"King");
+    int s;
+    
+    cin>>s;
+        greece<int , float> * ptr=new derived<int,float,string>(s,1.2f,"King");
     
     ptr->getvalue();
     return 0;
