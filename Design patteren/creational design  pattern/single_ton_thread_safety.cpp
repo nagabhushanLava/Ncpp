@@ -38,6 +38,8 @@ public:
         thread t1(startThread, id);
         t1.join();
     }
+    Single(const Single& other) = delete;
+    Single& operator=(const Single& other) = delete;    
 };
 
 int Single::counter = 0;
