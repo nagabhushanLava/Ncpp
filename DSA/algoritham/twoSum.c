@@ -82,6 +82,7 @@ int main(void)
         printf("target not found in array\n");
     }
 
+ 
 
 return 0;
 }
